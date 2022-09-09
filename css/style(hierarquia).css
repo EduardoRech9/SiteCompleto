@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+:root {
+  --fonte: "Poppins", sans-serif;
+}
+
+* {
+  font-family: var(--fonte);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #e7eda4;
+  min-width: 455px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  background: rgb(22, 103, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(22, 103, 0, 1) 0%,
+    rgba(81, 172, 0, 1) 50%,
+    rgba(14, 214, 0, 1) 100%
+  );
+  float: left;
+}
+
+nav img {
+  float: left;
+  width: 90px;
+  height: 80px;
+  padding-top: 10.5px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding: 35.5px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #e7eda4;
+  color: black;
+  border-radius: 15px;
+}
+
+main h1 {
+  padding-top: 20px;
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.container .brasao {
+  margin-top: 23px;
+  display: inline-block;
+}
+
+.container .brasao a {
+  text-decoration: none;
+}
+
+.brasao h1 {
+  color: white;
+}
+
+.brasao h5 {
+  color: white;
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+header {
+  background: linear-gradient(
+    45deg,
+    rgba(22, 103, 0, 1) 0%,
+    rgba(81, 172, 0, 1) 50%,
+    rgba(14, 214, 0, 1) 100%
+  );
+}
+
+header img {
+  margin-top: 7px;
+  width: 100%;
+  border: 5px solid white;
+  object-fit: cover;
+  object-position: bottom;
+  height: 300px;
+}
+
+.col-2 {
+  width: calc( 20% - 4px);
+}
+
+.col-3 {
+  width: calc( 25% - 4px);
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-9 {
+  width: calc( 75% - 4px);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: right;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+main .col-12 h1 {
+  padding: 0;
+}
+
+main .col-9 h1 {
+  padding: 0;
+}
+
+main .col-3 h3 {
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+}
+
+main .col-3 h1 {
+  padding: 0;
+}
+
+footer {
+  background: linear-gradient(
+    45deg,
+    rgba(22, 103, 0, 1) 0%,
+    rgba(81, 172, 0, 1) 50%,
+    rgba(14, 214, 0, 1) 100%
+  );
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+footer .col-3 {
+  border: 0;
+  border-left: 1px dotted white;
+  padding-top: 0;
+  float: left;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+footer .col-3 h3 {
+  color: white;
+  text-align: center;
+  padding-top: 0;
+  font-size: 18px;
+}
+
+footer .col-3 ul li  {
+  list-style: none;
+}
+
+footer .col-3 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+footer .col-3 ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .col-12 {
+  border: 0;
+}
+
+footer .col-12 h6 {
+  padding-bottom: 0px;
+  color: white;
+}
+
+footer .col-12 i {
+  padding-bottom: 0px;
+  color: white;
+}
+
+.separador p {
+  color: transparent;
+  font-size: 1px;
+}
+
+.boxes {
+  margin: 2px;
+  background: linear-gradient(
+    45deg,
+    rgba(22, 103, 0, 1) 0%,
+    rgba(81, 172, 0, 1) 50%,
+    rgba(14, 214, 0, 1) 100%
+  );
+  border-radius: 20px;
+}
